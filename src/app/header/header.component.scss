@@ -15,6 +15,13 @@
     }
 }
 
+img {
+  max-width: 225px;
+  min-width: 100px;
+  min-height: 20px;
+  margin-right: 5%;
+}
+
 .navbar-toggler {
   border-color: $color-primary;
   
