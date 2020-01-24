@@ -13,7 +13,7 @@
 
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-ligth bg-ligth">
+<nav class="navbar navbar-expand-lg navbar-ligth bg-ligth navbar-fixed-top">
     <img src="../../assets/images/logo-itau.png" alt="Logo Itaú">
 
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
@@ -24,7 +24,7 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [collapse]="isCollapsed" [isAnimated]="true">
         <div class="navbar-nav">
-            <a class="nav-item nav-link">Home</a>
+            <a href="https://www.itauunibancoclube.com.br/index.aspx#HomeAnchor" class="nav-item nav-link">Home</a>
             <a class="nav-item nav-link">Institucional</a>
             <a class="nav-item nav-link">Unidades</a>
             <a class="nav-item nav-link">Destaques</a>
@@ -37,4 +37,10 @@
             <a class="nav-item nav-link">/Sair</a>
         </div>
     </div>
+</nav>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Caminho Rota</li>
+    </ol>
 </nav>

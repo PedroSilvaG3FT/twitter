@@ -35,6 +35,16 @@ img {
   }
 }
 
+.breadcrumb {
+  background: $color-primary;
+  padding-left: 50px;
+  
+  li {
+    color: white !important;
+
+  }
+}
+
 
 @media only screen and (max-width: 700px) {
   .acessibilidade-area {
