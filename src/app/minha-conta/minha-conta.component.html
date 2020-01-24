@@ -11,7 +11,7 @@
                     <div class="text-truncate"> <b>Estado Civil:</b> Casado </div>
                     <div class="text-truncate"> <b>Sexo:</b> Masculino </div>
                     <div class="text-truncate"> <b>Data de Nascimento:</b> 04/10/1999 </div>
-                    
+
                     <br>
                     <button class="btn btn-outline-primary btn-block">Editar</button>
                 </div>
@@ -20,7 +20,25 @@
         </tab>
 
         <tab heading="Dependentes">
-            Dependentes
+            <div class="card-area">
+
+                <div class="card" style="width: 18rem;" *ngFor="let dependente of lstDependentes">
+                    <div class="card-body">
+                        <div class="text-truncate"> <b>Nome:</b> {{dependente.nome}} </div>
+                        <div class="text-truncate"> <b>CPF:</b> {{dependente.cpf}} </div>
+                        <div class="text-truncate"> <b>E-mail:</b> {{dependente.email}} </div>
+                        <div class="text-truncate"> <b>Telefone:</b> {{dependente.telefone}} </div>
+                        <div class="text-truncate"> <b>Estado Civil:</b> {{dependente.grauParentesco}} </div>
+                        <div class="text-truncate"> <b>Sexo:</b> {{dependente.sexo}} </div>
+                        <div class="text-truncate"> <b>Data de Nascimento:</b>
+                            {{dependente.dataNascimento | date: 'dd/MM/yyyy'}} </div>
+
+                        <br>
+                        <button class="btn btn-outline-primary btn-block">Editar</button>
+                    </div>
+                </div>
+            </div>
+
         </tab>
 
         <tab heading="Visitantes">
