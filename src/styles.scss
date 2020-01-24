@@ -37,6 +37,13 @@ button {
 }
 
 // STYLE BTN-PRIMARY
+.btn:disabled {
+  background: $color-secondary;
+  border-color: $color-secondary;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
 .btn-primary {
   background: $color-primary;
   border-color: $color-primary;

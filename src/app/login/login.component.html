@@ -1,15 +1,17 @@
 <div class="content">
 
-    <form>
+    <form #loginForm="ngForm">
         <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Insira seu email">
+            <label>CPF</label>
+            <input type="text" class="form-control" id="cpf" mask="000.000.000-00" placeholder="___.___.___-__"
+                required>
         </div>
+
+        <label>Senha</label>
         <div class="form-group">
-            <label for="exampleInputPassword1">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha">
+            <input type="password" class="form-control" id="senha" placeholder="Insira sua senha" required>
         </div>
-        <button type="submit" class="btn btn-primary">Logar</button>
+        
+        <button type="submit" class="btn btn-primary" [disabled]="loginForm.form.valid" (click)="login()">Logar</button>
     </form>
 </div>

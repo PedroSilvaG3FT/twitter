@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgxMaskModule } from "ngx-mask";
 import { CollapseModule, BsDropdownModule,TooltipModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
+    NgxMaskModule.forRoot(),
 
     CollapseModule.forRoot(), 
     BsDropdownModule.forRoot(),
