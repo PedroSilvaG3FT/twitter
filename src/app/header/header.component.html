@@ -1,10 +1,27 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="acessibilidade-area">
+    <h6>Acessibilidade</h6>
+
+    <h6>Alt+1 = Menu</h6>
+    <h6>Alt+2 = Conteúdo</h6>
+    <h6>Alt+3 = Rodapé</h6>
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary" tooltip="(Modo noturno)" placement="auto">Contraste</button>
+        <button type="button" class="btn btn-secondary" tooltip="Aumentar fonte" placement="auto">A -</button>
+        <button type="button" class="btn btn-secondary" tooltip="Diminuir fonte" placement="auto">A +</button>
+    </div>
+
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-ligth bg-ligth">
     <a class="navbar-brand" href="#">Logo Itaú</a>
-    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
-        data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-        aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [collapse]="isCollapsed" [isAnimated]="true">
         <div class="navbar-nav">
             <a class="nav-item nav-link">Home</a>
