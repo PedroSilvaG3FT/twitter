@@ -1,0 +1,11 @@
+@import "../../theme-scss/variables.scss";
+
+.page-footer {
+    background-color: $color-primary;
+
+    div, a { 
+        color: white;
+        font-weight: bold;
+    }
+}
+
