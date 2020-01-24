@@ -38,10 +38,14 @@ img {
 .breadcrumb {
   background: $color-primary;
   padding-left: 50px;
-  
-  li {
-    color: white !important;
+  border-radius: 0px;
+  height: 30px;
+  display: flex;
+  align-content: center;
 
+  li {
+    color: white;
+    font-weight: bold;
   }
 }
 
