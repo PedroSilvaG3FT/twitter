@@ -17,18 +17,7 @@ export class MinhaContaComponent implements OnInit {
 
 export const listTest = [
   {
-    nome: "Nome Teste",
-    cpf: "496.333.518-20",
-    email:"email@teste.com",
-    telefone: "(11) 95888-5825",
-    grauParentesco: "Filho",
-    sexo: "Masculino",
-    dataNascimento: new Date(),
-    status: "Aprovado"
-  },
-
-  {
-    nome: "Nome Teste",
+    nome: "Nome 1",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -39,7 +28,7 @@ export const listTest = [
   },
 
   {
-    nome: "Nome Teste",
+    nome: "Nome 5",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -50,7 +39,7 @@ export const listTest = [
   },
 
   {
-    nome: "Nome Teste",
+    nome: "Nome 1",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -61,7 +50,7 @@ export const listTest = [
   },
 
   {
-    nome: "Nome Teste",
+    nome: "Nome 4",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -72,7 +61,7 @@ export const listTest = [
   },
 
   {
-    nome: "Nome Teste",
+    nome: "Nome 2",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -83,7 +72,7 @@ export const listTest = [
   },
 
   {
-    nome: "Nome Teste",
+    nome: "Nome 6",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -94,7 +83,7 @@ export const listTest = [
   },
 
   {
-    nome: "Nome Teste",
+    nome: "Nome 7",
     cpf: "496.333.518-20",
     email: "email@teste.com",
     telefone: "(11) 95888-5825",
@@ -104,5 +93,16 @@ export const listTest = [
     status: "Aprovado"
   },
 
-  
+  {
+    nome: "Nome 8",
+    cpf: "496.333.518-20",
+    email: "email@teste.com",
+    telefone: "(11) 95888-5825",
+    grauParentesco: "Filho",
+    sexo: "Masculino",
+    dataNascimento: new Date(),
+    status: "Aprovado"
+  },
+
+
 ]
