@@ -11,7 +11,6 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
-import { MinhaContaComponent } from './minha-conta/minha-conta.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { MinhaContaComponent } from './minha-conta/minha-conta.component';
     HeaderComponent,
     LoginComponent,
     FooterComponent,
-    MinhaContaComponent
   ],
   imports: [
     AppRoutingModule,
