@@ -6,11 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hashtags.component.scss']
 })
 export class HashtagsComponent implements OnInit {
-  public hashtagList = HASHTAG_ARRAY;
+  public hashtagList: any[] = [];
 
   constructor() { }
 
   ngOnInit() {
+    this.searchHashtag();
+  }
+
+  async searchHashtag() {
+    this.hashtagList = HASHTAG_ARRAY;
+    this.hashtagList.sort((a, b) => a._id.hashtag.localeCompare(b._id.hashtag));
   }
 
 }
