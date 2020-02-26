@@ -35,7 +35,16 @@ import { HourlyPostComponent } from './hourly-post/hourly-post.component';
     ],
     exports: [
         HomeComponent,
+        UsersComponent,
+        HashtagsComponent,
+        HourlyPostComponent,
 
+    ],
+    entryComponents: [
+        HomeComponent,
+        UsersComponent,
+        HashtagsComponent,
+        HourlyPostComponent,
     ]
 })
 export class HomeModule { }

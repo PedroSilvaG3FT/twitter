@@ -6,6 +6,7 @@ import {
   BsDropdownModule,
   TooltipModule,
   AccordionModule,
+  ModalModule
 } from 'ngx-bootstrap';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 
@@ -37,6 +38,7 @@ import { HomeModule } from './home/home.module';
     TooltipModule.forRoot(),
     TabsModule.forRoot(),
     AccordionModule.forRoot(),
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

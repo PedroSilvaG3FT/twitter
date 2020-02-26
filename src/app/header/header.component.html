@@ -9,9 +9,9 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [collapse]="isCollapsed" [isAnimated]="true">
         <div class="navbar-nav">
-            <button class="btn btn-primary btn-rounded mr-2 ">Users</button>
-            <button class="btn btn-primary btn-rounded mr-2 ">Hourly Post</button>
-            <button class="btn btn-primary btn-rounded mr-2 ">#Hashtags</button>
+            <button class="btn btn-primary btn-rounded m-2 " (click)="openUsers()">Users</button>
+            <button class="btn btn-primary btn-rounded m-2 " (click)="openHourlyPost()">Hourly Post</button>
+            <button class="btn btn-primary btn-rounded m-2 " (click)="openHashtag()">#Hashtags</button>
         </div>
     </div>
 </nav>
