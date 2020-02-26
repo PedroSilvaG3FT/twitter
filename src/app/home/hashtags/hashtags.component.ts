@@ -14,7 +14,7 @@ export class HashtagsComponent implements OnInit {
     this.searchHashtag();
   }
 
-  async searchHashtag() {
+  searchHashtag() {
     this.hashtagList = HASHTAG_ARRAY;
     this.hashtagList.sort((a, b) => a._id.hashtag.localeCompare(b._id.hashtag));
   }
