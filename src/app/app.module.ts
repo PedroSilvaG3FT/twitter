@@ -16,18 +16,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
   ],
   imports: [
     AppRoutingModule,
     FormsModule,
     BrowserModule,
+    HomeModule,
     BrowserAnimationsModule,
     NgxMaskModule.forRoot(),
 
