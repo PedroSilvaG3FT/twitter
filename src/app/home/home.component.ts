@@ -24,318 +24,318 @@ export class HomeComponent implements OnInit {
 
 export const USERS_ARRAY = [
   {
-    "user": "Alvin Foo",
-    "followers": 44369,
-    "lang": "en"
+    user: "Alvin Foo",
+    followers: 44369,
+    lang: "en"
   },
   {
-    "user": "Salvador Carnaval",
-    "followers": 24596,
-    "lang": "pt"
+    user: "Salvador Carnaval",
+    followers: 24596,
+    lang: "pt"
   },
   {
-    "user": "We ❤ Star Wars",
-    "followers": 9093,
-    "lang": "en"
+    user: "We ❤ Star Wars",
+    followers: 9093,
+    lang: "en"
   },
   {
-    "user": "Tech Help KB 📚",
-    "followers": 8918,
-    "lang": "en"
+    user: "Tech Help KB 📚",
+    followers: 8918,
+    lang: "en"
   },
   {
-    "user": "Rcchoi😷 🖐 ☝",
-    "followers": 6567,
-    "lang": "en"
+    user: "Rcchoi😷 🖐 ☝",
+    followers: 6567,
+    lang: "en"
   }
 ]
 
 export const HOURS_ARRAY = [
   {
-    "hour": "05",
-    "count": 1
+    hour: "05",
+    count: 1
   },
   {
-    "hour": "21",
-    "count": 57
+    hour: "21",
+    count: 57
   },
   {
-    "hour": "11",
-    "count": 1
+    hour: "11",
+    count: 1
   },
   {
-    "hour": "03",
-    "count": 1
+    hour: "03",
+    count: 1
   },
   {
-    "hour": "02",
-    "count": 2
+    hour: "02",
+    count: 2
   },
   {
-    "hour": "08",
-    "count": 1
+    hour: "08",
+    count: 1
   },
   {
-    "hour": "14",
-    "count": 1
+    hour: "14",
+    count: 1
   },
   {
-    "hour": "06",
-    "count": 1
+    hour: "06",
+    count: 1
   },
   {
-    "hour": "09",
-    "count": 1
+    hour: "09",
+    count: 1
   },
   {
-    "hour": "22",
-    "count": 1
+    hour: "22",
+    count: 1
   },
   {
-    "hour": "12",
-    "count": 1
+    hour: "12",
+    count: 1
   },
   {
-    "hour": "19",
-    "count": 8
+    hour: "19",
+    count: 8
   },
   {
-    "hour": "15",
-    "count": 1
+    hour: "15",
+    count: 1
   },
   {
-    "hour": "20",
-    "count": 15
+    hour: "20",
+    count: 15
   },
   {
-    "hour": "07",
-    "count": 1
+    hour: "07",
+    count: 1
   }
 ]
 
 export const HASHTAG_ARRAY = [
   {
-    "_id": {
-      "hashtag": "JustinBieber",
-      "userLang": "ja"
+    _id: {
+      hashtag: "JustinBieber",
+      userLang: "ja"
     },
-    "count": 2
+    count: 2
   },
   {
-    "_id": {
-      "hashtag": "iphone",
-      "userLang": "ja"
+    _id: {
+      hashtag: "iphone",
+      userLang: "ja"
     },
-    "count": 3
+    count: 3
   },
   {
-    "_id": {
-      "hashtag": "Euro2016",
-      "userLang": "it"
+    _id: {
+      hashtag: "Euro2016",
+      userLang: "it"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "TheWalkingDead",
-      "userLang": "es"
+    _id: {
+      hashtag: "TheWalkingDead",
+      userLang: "es"
     },
-    "count": 5
+    count: 5
   },
   {
-    "_id": {
-      "hashtag": "samsung",
-      "userLang": "en"
+    _id: {
+      hashtag: "samsung",
+      userLang: "en"
     },
-    "count": 11
+    count: 11
   },
   {
-    "_id": {
-      "hashtag": "Neymar",
-      "userLang": "und"
+    _id: {
+      hashtag: "Neymar",
+      userLang: "und"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "TheWalkingDead",
-      "userLang": "en"
+    _id: {
+      hashtag: "TheWalkingDead",
+      userLang: "en"
     },
-    "count": 7
+    count: 7
   },
   {
-    "_id": {
-      "hashtag": "JustinBieber",
-      "userLang": "en"
+    _id: {
+      hashtag: "JustinBieber",
+      userLang: "en"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "iphone",
-      "userLang": "und"
+    _id: {
+      hashtag: "iphone",
+      userLang: "und"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "Euro2016",
-      "userLang": "pl"
+    _id: {
+      hashtag: "Euro2016",
+      userLang: "pl"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "iphone",
-      "userLang": "hi"
+    _id: {
+      hashtag: "iphone",
+      userLang: "hi"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "apple",
-      "userLang": "ja"
+    _id: {
+      hashtag: "apple",
+      userLang: "ja"
     },
-    "count": 2
+    count: 2
   },
   {
-    "_id": {
-      "hashtag": "Euro2016",
-      "userLang": "ja"
+    _id: {
+      hashtag: "Euro2016",
+      userLang: "ja"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "Neymar",
-      "userLang": "pt"
+    _id: {
+      hashtag: "Neymar",
+      userLang: "pt"
     },
-    "count": 3
+    count: 3
   },
   {
-    "_id": {
-      "hashtag": "IveteSangalo",
-      "userLang": "pt"
+    _id: {
+      hashtag: "IveteSangalo",
+      userLang: "pt"
     },
-    "count": 7
+    count: 7
   },
   {
-    "_id": {
-      "hashtag": "samsung",
-      "userLang": "und"
+    _id: {
+      hashtag: "samsung",
+      userLang: "und"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "Neymar",
-      "userLang": "en"
+    _id: {
+      hashtag: "Neymar",
+      userLang: "en"
     },
-    "count": 3
+    count: 3
   },
   {
-    "_id": {
-      "hashtag": "JustinBieber",
-      "userLang": "es"
+    _id: {
+      hashtag: "JustinBieber",
+      userLang: "es"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "TheWalkingDead",
-      "userLang": "pt"
+    _id: {
+      hashtag: "TheWalkingDead",
+      userLang: "pt"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "apple",
-      "userLang": "es"
+    _id: {
+      hashtag: "apple",
+      userLang: "es"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "TheWalkingDead",
-      "userLang": "et"
+    _id: {
+      hashtag: "TheWalkingDead",
+      userLang: "et"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "apple",
-      "userLang": "en"
+    _id: {
+      hashtag: "apple",
+      userLang: "en"
     },
-    "count": 5
+    count: 5
   },
   {
-    "_id": {
-      "hashtag": "Euro2016",
-      "userLang": "en"
+    _id: {
+      hashtag: "Euro2016",
+      userLang: "en"
     },
-    "count": 5
+    count: 5
   },
   {
-    "_id": {
-      "hashtag": "Neymar",
-      "userLang": "fr"
+    _id: {
+      hashtag: "Neymar",
+      userLang: "fr"
     },
-    "count": 3
+    count: 3
   },
   {
-    "_id": {
-      "hashtag": "StarWars",
-      "userLang": "en"
+    _id: {
+      hashtag: "StarWars",
+      userLang: "en"
     },
-    "count": 12
+    count: 12
   },
   {
-    "_id": {
-      "hashtag": "JustinBieber",
-      "userLang": "fr"
+    _id: {
+      hashtag: "JustinBieber",
+      userLang: "fr"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "TheWalkingDead",
-      "userLang": "und"
+    _id: {
+      hashtag: "TheWalkingDead",
+      userLang: "und"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "StarWars",
-      "userLang": "es"
+    _id: {
+      hashtag: "StarWars",
+      userLang: "es"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "iphone",
-      "userLang": "es"
+    _id: {
+      hashtag: "iphone",
+      userLang: "es"
     },
-    "count": 2
+    count: 2
   },
   {
-    "_id": {
-      "hashtag": "Euro2016",
-      "userLang": "und"
+    _id: {
+      hashtag: "Euro2016",
+      userLang: "und"
     },
-    "count": 4
+    count: 4
   },
   {
-    "_id": {
-      "hashtag": "iphone",
-      "userLang": "en"
+    _id: {
+      hashtag: "iphone",
+      userLang: "en"
     },
-    "count": 1
+    count: 1
   },
   {
-    "_id": {
-      "hashtag": "Euro2016",
-      "userLang": "fr"
+    _id: {
+      hashtag: "Euro2016",
+      userLang: "fr"
     },
-    "count": 2
+    count: 2
   }
 ]
