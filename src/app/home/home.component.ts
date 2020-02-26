@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public usersList = USERS_ARRAY;
   public hoursList = HOURS_ARRAY;
   public hashtagList = HASHTAG_ARRAY;
 
@@ -22,33 +21,7 @@ export class HomeComponent implements OnInit {
 
 }
 
-export const USERS_ARRAY = [
-  {
-    user: "Alvin Foo",
-    followers: 44369,
-    lang: "en"
-  },
-  {
-    user: "Salvador Carnaval",
-    followers: 24596,
-    lang: "pt"
-  },
-  {
-    user: "We ❤ Star Wars",
-    followers: 9093,
-    lang: "en"
-  },
-  {
-    user: "Tech Help KB 📚",
-    followers: 8918,
-    lang: "en"
-  },
-  {
-    user: "Rcchoi😷 🖐 ☝",
-    followers: 6567,
-    lang: "en"
-  }
-]
+
 
 export const HOURS_ARRAY = [
   {

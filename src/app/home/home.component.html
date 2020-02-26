@@ -1,24 +1,7 @@
 <div class="container">
     <accordion [isAnimated]="true">
         <accordion-group heading="Users" panelClass="customClass" isOpen="true">
-
-            <table class="table table-responsive-sm">
-                <thead>
-                    <tr>
-                        <th scope="col">User</th>
-                        <th scope="col">Followers</th>
-                        <th scope="col">Lang</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr *ngFor="let user of usersList">
-                        <td>{{user.user}}</td>
-                        <td>{{user.followers}}</td>
-                        <td>{{user.lang}}</td>
-                    </tr>
-                </tbody>
-            </table>
-
+            <app-users></app-users>
         </accordion-group>
 
         <br>
