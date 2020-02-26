@@ -13,12 +13,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home.component';
 import { UsersComponent } from './users/users.component';
 import { HashtagsComponent } from './hashtags/hashtags.component';
+import { HourlyPostComponent } from './hourly-post/hourly-post.component';
 
 @NgModule({
     declarations: [
         HomeComponent,
         UsersComponent,
         HashtagsComponent,
+        HourlyPostComponent,
     ],
     imports: [
         BrowserModule,
