@@ -12,11 +12,13 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home.component';
 import { UsersComponent } from './users/users.component';
+import { HashtagsComponent } from './hashtags/hashtags.component';
 
 @NgModule({
     declarations: [
         HomeComponent,
         UsersComponent,
+        HashtagsComponent,
     ],
     imports: [
         BrowserModule,
