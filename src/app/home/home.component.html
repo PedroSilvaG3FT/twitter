@@ -16,13 +16,30 @@
                         <td>{{user.followers}}</td>
                         <td>{{user.lang}}</td>
                     </tr>
-
                 </tbody>
             </table>
 
         </accordion-group>
+
+        <br>
+
         <accordion-group heading="Hashtags" panelClass="customClass">
-            <p>Some content</p>
+            <table class="table table-responsive-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Hashtag</th>
+                        <th scope="col">User Lang</th>
+                        <th scope="col">Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let hashtag of hashtagList">
+                        <td>{{hashtag._id.hashtag}}</td>
+                        <td>{{hashtag._id.userLang}}</td>
+                        <td>{{hashtag.count}}</td>
+                    </tr>
+                </tbody>
+            </table>
         </accordion-group>
     </accordion>
 </div>
