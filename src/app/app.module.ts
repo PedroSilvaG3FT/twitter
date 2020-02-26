@@ -1,7 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgxMaskModule } from "ngx-mask";
-import { CollapseModule, BsDropdownModule,TooltipModule } from 'ngx-bootstrap';
+import {
+  CollapseModule,
+  BsDropdownModule,
+  TooltipModule,
+  AccordionModule,
+} from 'ngx-bootstrap';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 
 import { AppComponent } from './app.component';
@@ -28,10 +33,11 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     NgxMaskModule.forRoot(),
 
-    CollapseModule.forRoot(), 
+    CollapseModule.forRoot(),
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
-    TabsModule.forRoot()
+    TabsModule.forRoot(),
+    AccordionModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
